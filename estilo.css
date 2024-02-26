@@ -1,13 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color:deepskyblue;
+    background-color: deepskyblue;
     font-family: 'Franklin Gothic Medium';
     
 }
 
 .topo {
-    background-color: skyblue;
+    background-color: white;
     padding: 30px;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.topo a {
+    color: black;
+    text-decoration: none;
 }
 
 .menu {
@@ -21,16 +31,18 @@ body {
 }
 
 .materia {
-    background-color: skyblue;
+    background-color: white;
     padding: 30px;
     margin-bottom: 15px;
     width: 600px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .materia img {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .materia h1 {
@@ -42,10 +54,22 @@ body {
     text-align: center;
     margin-bottom: 10px;
     font-size: 40px;
+    color: white;
 }
 
 .texto {
     text-align: center;
     margin-bottom: 30px;
     font-size: 25px;
+}
+
+.navegacao {
+    display: flex;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
+    gap: 20px;
+    
 }
