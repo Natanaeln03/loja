@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: deepskyblue;
+    background-color: black;
     font-family: 'Franklin Gothic Medium';
     
 }
@@ -61,6 +61,7 @@ body {
     text-align: center;
     margin-bottom: 30px;
     font-size: 25px;
+    color: white;
 }
 
 .navegacao {
@@ -72,4 +73,11 @@ body {
     grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
     gap: 20px;
     
+}
+
+.rodape {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
 }
