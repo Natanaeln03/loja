@@ -98,6 +98,10 @@ body {
     text-align: center;
 }
 
+main {
+    padding: 10px;
+}
+
 .contato {
     background-color: white;
     padding: 30px;
@@ -127,7 +131,24 @@ textarea.campo {
     font-family: 'Franklin Gothic Medium';
 }
 
+.campo:focus {
+    background-color: forestgreen;
+    outline: none;
+}
+
 .mapa {
     width: 100%;
+}
+
+@media (min-width: 768) {
+
+.topo a {
+    font-size: 18px;
+}
+
+.materia h1 {
+    font-size: 30px;
+}
+    
 }
 
